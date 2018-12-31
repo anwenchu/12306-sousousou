@@ -1,0 +1,4 @@
+rootProject.name = '12306-sousousou'
+include '12306-api'
+findProject(':12306-api')?.name = 'api'
+
